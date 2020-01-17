@@ -3,25 +3,11 @@
 <head>
 	<title>kalkulator sederhana</title>
 </head>
-<script type="text/javascript">
-	function hasil(){
-		var i=parseInt(document.getElementById('bil1').value);
-		var j=parseInt(document.getElementById('bil2').value);
-		if (isNaN(i) ||  isNaN(j)) {
-  		alert("mohon isi angka");
-  		}
-		else{
-		var jumlah=i+j
-		alert("hasilnya adalah "+jumlah)
-		return jumlah
-		}
-	}
-
-</script>
 <body>
 	<input type="text" id="bil1">
 	<input type="text" id="bil2"><br>
 	<input type="button" value="tambah" name="tombol"onclick="hasil()">
 	<input type="reset" value="reset">
+	<script src="p.js"></script>
 </body>
 </html>
