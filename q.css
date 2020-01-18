@@ -1,0 +1,27 @@
+body {
+	background-image: url(https://1.bp.blogspot.com/-mNzNqohYAVw/XXCYXteEeyI/AAAAAAAAMzo/vTig1TtkaVISXi0aYYcofbFJFbcS9Ab4ACLcBGAs/w914-h514-p-k-no-nu/anime-girl-student-raining-umbrella-uhdpaper.com-4K-4.638-wp.thumbnail.jpg);
+	background-size: cover;
+}
+table {
+	border: none;
+	background-color: rgba(255, 255, 255, 0.20);
+}
+input[type=text]{
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 2px 2px 2px 2px
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 499%;
+}
+input[type=reset]{
+	border: none;
+	background-color: rgba(59, 92, 99, 0);
+	font-size: 499%;
+
+}
+input[type=button]{
+	border: none;
+	background-color: rgba(59, 92, 99, 0);
+	font-size: 499%
+
+}
