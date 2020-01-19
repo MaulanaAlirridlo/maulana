@@ -3,19 +3,35 @@
 <head>
 	<title>kalkulator sederhana</title>
 	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="stylesheet" type="text/css" href="../1.css">
 </head>
 <body>
-	<form name="a">
-		<center>
+	<div class="menu"> 
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li class="dropdown"><a href="#">Kalkulator</a>
+				<ul class="isi">
+					<li><a href="../kalkulator/kalkulator.html">Kalkulator</a></li>
+					<li><a href="../kalkulator2/kalkulator2.html">Kalkulator2</a></li>
+				</ul>
+			</li>
+			<li><a href="#">About</a></li>
+		</ul> 
+	</div>
+	<br><br><br>
+	<center>
+	<div class="konten">
+		<form name="a">
 			<input type="text" id="bil1">
 			<input type="text" id="bil2"><br>
-			<input type="button" value="tambah" name="tombol" onclick="tambah()"><br>
-			<input type="button" value="kurang" name="kurang" onclick="kurang()"><br>
-			<input type="button" value="kali" name="kali" onclick="kali()"><br>
-			<input type="button" value="bagi" name="bagi" onclick="bagi()"><br>
+			<input type="button" value="tambah" onclick="tambah()">
+			<input type="button" value="kurang" onclick="kurang()">
+			<input type="button" value="kali" onclick="kali()">
+			<input type="button" value="bagi" onclick="bagi()">
 			<input type="reset" value="reset">
-		</center>
-	</form>
+		</form>
+	</div>
+	</center>
 </body>
 <script src="js.js"></script>
 </html>

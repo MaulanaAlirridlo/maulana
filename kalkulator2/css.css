@@ -1,0 +1,30 @@
+body{
+	background-image: url('');
+
+}
+
+.konten{
+	width: 50%;
+	background-color: rgba(70, 70, 78, 0.35);
+	padding: 10px 10px;
+}
+
+input[type=text]{
+	border: none;
+	border-bottom: 2px solid black;
+	margin: 20px 0px 5px 0px
+}
+
+input[type=button]{
+	border: none;
+	background-color: grey;
+	color: white;
+	margin-bottom: 20px
+	width:100%;
+}
+
+input[type=reset]{
+	border: none;
+	background-color: grey;
+	color: white;
+}
