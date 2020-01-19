@@ -1,0 +1,66 @@
+.menu{
+	background-color: rgba(0, 31, 209, 0.09);
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menu > ul > li {
+	float: left;
+}
+
+.menu li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	opacity: 0.50
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown:hover .isi {
+	display: block;
+}
+
+.isi a:hover {
+	color: #fff;
+}
+
+.isi {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: rgba(10, 18, 72, 0.73);
+}
+
+.isi a {
+	color: white;
+}
+
+.isi a:hover {
+	color: #232323;
+	background: #f3f3f3;
+}
+
+fieldset{
+	width: 100px; 
+	height: auto; 
+	float: left;
+	border-color: grey;
+
+}
+body{
+	background-image: url(1.png); background-size: cover;
+}
