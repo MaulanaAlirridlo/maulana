@@ -12,7 +12,9 @@ body{
 input[type=text]{
 	border: none;
 	border-bottom: 2px solid black;
-	margin: 20px 0px 5px 0px
+	margin: 20px 0px 5px 0px;
+	background-color: grey;
+	color: white;
 }
 
 input[type=button]{
